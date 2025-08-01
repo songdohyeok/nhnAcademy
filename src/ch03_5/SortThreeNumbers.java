@@ -58,7 +58,7 @@ public class SortThreeNumbers {
         }else if(y<=z && z<=x){
             min = y;
             max = x;
-        }
+        } //if문 예제라서 if문만 사용함
 
         System.out.printf("최솟값: %d\n최댓값: %d\n범위: %d",min,max,max-min);
 
