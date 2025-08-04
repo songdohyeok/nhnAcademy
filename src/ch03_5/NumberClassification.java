@@ -1,5 +1,4 @@
 package ch03_5;
-
 import textio.TextIO;
 
 public class NumberClassification {
@@ -18,7 +17,7 @@ public class NumberClassification {
 
         if(number>1000){
             System.out.println("매우 큰 양수입니다.");
-        }else if(number > 1000) {
+        }else if(number < -1000) {
             System.out.println("매우 작은 음수입니다.");
         }else if(number > 0 && number < 1) {
             System.out.println("0과 1 사이의 양수입니다.");
